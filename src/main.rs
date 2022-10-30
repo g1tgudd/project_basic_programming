@@ -15,7 +15,7 @@ struct Employees {
 impl Employees {
     fn new() -> Self {
         Self {
-            inner: HashMap::new(),
+            inner: HashMap::new(),s
         }
     }
 
