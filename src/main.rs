@@ -20,7 +20,7 @@ impl Employees {
     }
 
     fn add(&mut self, emp: Employee) {
-        self.inner.insert(emp.name.clone(), emp);s
+        self.inner.insert(emp.name.clone(), emp);
     }
 
     fn get(&self) -> Vec<&Employee> {
